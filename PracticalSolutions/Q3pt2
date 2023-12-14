@@ -1,0 +1,11 @@
+def is_alphanumeric(input_string):
+    if input_string.isalnum() is True:
+        return True
+    else:
+        return False
+
+
+# Example usage:
+test_string = input('please enter your alpha numeric string')
+result = is_alphanumeric(test_string)
+print(result)  # This will print True
